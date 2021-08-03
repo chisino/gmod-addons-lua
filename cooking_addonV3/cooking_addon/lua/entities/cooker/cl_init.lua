@@ -19,7 +19,7 @@ surface.CreateFont( "TheDefaultSettings", {
 	outline = false,
 } )
 
-local cookMode = 2 -- 1 = bread, 2 = hot cocoa
+local cookMode = 1 -- 1 = bread, 2 = hot cocoa
 
 function ENT:Draw()
 	self:DrawModel()
